@@ -10,7 +10,7 @@ class ClashService
 	end
 
 	def connection
-		Faraday.new(url: "https://api.clashofclans.com") do |f|
+		Faraday.new(url: "https://api.clashofclans.com", proxy: ENV["PROXIMO_URL"]) do |f|
 			f.headers["Authorization"] = ENV["CLASH_API_KEY"]
 		end
 	end
