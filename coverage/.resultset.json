@@ -1,6 +1,31 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/axeld/Documents/personal_projects/clash_of_clans/app/controllers/players_controller.rb": {
+        "lines": [
+          1,
+          1,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/axeld/Documents/personal_projects/clash_of_clans/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
       "/Users/axeld/Documents/personal_projects/clash_of_clans/app/facades/clash_facade.rb": {
         "lines": [
           1,
@@ -85,6 +110,6 @@
         ]
       }
     },
-    "timestamp": 1680061290
+    "timestamp": 1680063383
   }
 }

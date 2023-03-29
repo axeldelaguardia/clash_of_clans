@@ -1,0 +1,157 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.clashofclans.com/v1/players/%23JYYRPLR
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjY2Y2UwZjBhLTVhYWEtNGQzYy1iNDFmLTJkYzcyNWY5ZjUwMCIsImlhdCI6MTY4MDA1NzI1Nywic3ViIjoiZGV2ZWxvcGVyL2M1NzE2YmE4LTA2ZDItNmE3OS02NTA4LWU0NzQ4MTE3MmM3NiIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjk3LjExOC4xNTIuMTM5Il0sInR5cGUiOiJjbGllbnQifV19.dxUzg2Oosp0nNLvzD4HFOFFJwXmUiwNw8mRjYRRw6hLXvKqy_0Iod0vSb5Hcj0sGn9f6VGM1nhd6hqFnHFHGFw
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 29 Mar 2023 04:14:39 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=43200
+      Cache-Control:
+      - max-age=60
+    body:
+      encoding: ASCII-8BIT
+      string: '{"tag":"#JYYRPLR","name":"MonkeyMike","townHallLevel":10,"expLevel":132,"trophies":1773,"bestTrophies":3200,"warStars":479,"attackWins":5,"defenseWins":1,"builderHallLevel":6,"versusTrophies":1916,"bestVersusTrophies":1917,"versusBattleWins":244,"role":"admin","warPreference":"in","donations":77,"donationsReceived":269,"clanCapitalContributions":20835,"clan":{"tag":"#2LYJJ0GJL","name":"30&over","clanLevel":3,"badgeUrls":{"small":"https://api-assets.clashofclans.com/badges/70/6FNstcxgc9MqaAI2-xhQ2sC9d8ojDJVQQmMZhAX8I9U.png","large":"https://api-assets.clashofclans.com/badges/512/6FNstcxgc9MqaAI2-xhQ2sC9d8ojDJVQQmMZhAX8I9U.png","medium":"https://api-assets.clashofclans.com/badges/200/6FNstcxgc9MqaAI2-xhQ2sC9d8ojDJVQQmMZhAX8I9U.png"}},"league":{"id":29000008,"name":"Gold
+        League II","iconUrls":{"small":"https://api-assets.clashofclans.com/leagues/72/Y6CveuHmPM_oiOic2Yet0rYL9AFRYW0WA0u2e44-YbM.png","tiny":"https://api-assets.clashofclans.com/leagues/36/Y6CveuHmPM_oiOic2Yet0rYL9AFRYW0WA0u2e44-YbM.png","medium":"https://api-assets.clashofclans.com/leagues/288/Y6CveuHmPM_oiOic2Yet0rYL9AFRYW0WA0u2e44-YbM.png"}},"achievements":[{"name":"Bigger
+        Coffers","stars":3,"value":11,"target":10,"info":"Upgrade a Gold Storage to
+        level 10","completionInfo":"Highest Gold Storage level: 11","village":"home"},{"name":"Get
+        those Goblins!","stars":3,"value":159,"target":150,"info":"Win 150 Stars on
+        the Campaign Map","completionInfo":"Stars in Campaign Map: 159","village":"home"},{"name":"Bigger
+        & Better","stars":3,"value":10,"target":8,"info":"Upgrade Town Hall to level
+        8","completionInfo":"Current Town Hall level: 10","village":"home"},{"name":"Nice
+        and Tidy","stars":3,"value":1578,"target":500,"info":"Remove 500 obstacles
+        (trees, rocks, bushes)","completionInfo":"Total obstacles removed: 1578","village":"home"},{"name":"Discover
+        New Troops","stars":3,"value":1,"target":1,"info":"Unlock Dragon in the Barracks","completionInfo":null,"village":"home"},{"name":"Gold
+        Grab","stars":3,"value":548174049,"target":100000000,"info":"Steal 100000000
+        gold","completionInfo":"Total Gold looted: 548174049","village":"home"},{"name":"Elixir
+        Escapade","stars":3,"value":525853500,"target":100000000,"info":"Steal 100000000
+        elixir","completionInfo":"Total Elixir looted: 525853500","village":"home"},{"name":"Sweet
+        Victory!","stars":3,"value":3200,"target":1250,"info":"Achieve a total of
+        1250 trophies in Multiplayer battles","completionInfo":"Trophy record: 3200","village":"home"},{"name":"Empire
+        Builder","stars":3,"value":6,"target":4,"info":"Upgrade Clan Castle to level
+        4","completionInfo":"Current Clan Castle level: 6","village":"home"},{"name":"Wall
+        Buster","stars":3,"value":17552,"target":2000,"info":"Destroy 2000 Walls in
+        Multiplayer battles","completionInfo":"Total walls destroyed: 17552","village":"home"},{"name":"Humiliator","stars":3,"value":2379,"target":2000,"info":"Destroy
+        2000 Town Halls in Multiplayer battles","completionInfo":"Total Town Halls
+        destroyed: 2379","village":"home"},{"name":"Union Buster","stars":3,"value":6644,"target":2500,"info":"Destroy
+        2500 Builder''s Huts in Multiplayer battles","completionInfo":"Total Builder''s
+        Huts destroyed: 6644","village":"home"},{"name":"Conqueror","stars":2,"value":3179,"target":5000,"info":"Win
+        5000 Multiplayer battles","completionInfo":"Total multiplayer battles won:
+        3179","village":"home"},{"name":"Unbreakable","stars":2,"value":930,"target":5000,"info":"Successfully
+        defend against 5000 attacks","completionInfo":"Total defenses won: 930","village":"home"},{"name":"Friend
+        in Need","stars":3,"value":63387,"target":25000,"info":"Donate 25000 capacity
+        worth of reinforcements to Clanmates","completionInfo":"Total capacity donated:
+        63387","village":"home"},{"name":"Mortar Mauler","stars":2,"value":4249,"target":5000,"info":"Destroy
+        5000 Mortars in Multiplayer battles","completionInfo":"Total Mortars destroyed:
+        4249","village":"home"},{"name":"Heroic Heist","stars":3,"value":1906117,"target":1000000,"info":"Steal
+        1000000 Dark Elixir","completionInfo":"Total Dark Elixir looted: 1906117","village":"home"},{"name":"League
+        All-Star","stars":3,"value":16,"target":1,"info":"Become a Champion!","completionInfo":null,"village":"home"},{"name":"X-Bow
+        Exterminator","stars":2,"value":768,"target":2500,"info":"Destroy 2500 X-Bows
+        in Multiplayer battles","completionInfo":"Total X-Bows destroyed: 768","village":"home"},{"name":"Firefighter","stars":1,"value":109,"target":250,"info":"Destroy
+        250 Inferno Towers in Multiplayer battles","completionInfo":"Total Inferno
+        Towers destroyed: 109","village":"home"},{"name":"War Hero","stars":2,"value":479,"target":1000,"info":"Score
+        1000 Stars for your clan in Clan War battles","completionInfo":"Total Stars
+        scored for clan in Clan War battles: 479","village":"home"},{"name":"Clan
+        War Wealth","stars":3,"value":105214273,"target":100000000,"info":"Collect
+        100000000 gold from the Clan Castle","completionInfo":"Total gold collected
+        in Clan War bonuses: 105214273","village":"home"},{"name":"Anti-Artillery","stars":0,"value":2,"target":20,"info":"Destroy
+        20 Eagle Artilleries in Multiplayer battles","completionInfo":"Total Eagle
+        Artilleries destroyed: 2","village":"home"},{"name":"Sharing is caring","stars":1,"value":294,"target":2000,"info":"Donate
+        2000 spell storage capacity worth of spells","completionInfo":"Total spell
+        capacity donated: 294","village":"home"},{"name":"Keep Your Account Safe!","stars":0,"value":0,"target":1,"info":"Protect
+        your village by connecting to a social network","completionInfo":"Completed!","village":"home"},{"name":"Master
+        Engineering","stars":2,"value":6,"target":8,"info":"Upgrade Builder Hall to
+        level 8","completionInfo":"Current Builder Hall level: 6","village":"builderBase"},{"name":"Next
+        Generation Model","stars":2,"value":1,"target":1,"info":"Unlock Cannon Cart
+        in the Builder Barracks","completionInfo":null,"village":"builderBase"},{"name":"Un-Build
+        It","stars":2,"value":254,"target":2000,"info":"Destroy 2000 Builder Halls
+        in Versus battles","completionInfo":"Total Builder Halls destroyed: 254","village":"builderBase"},{"name":"Champion
+        Builder","stars":2,"value":1917,"target":3000,"info":"Achieve a total of 3000
+        trophies in Versus battles","completionInfo":"Versus Trophy record: 1917","village":"builderBase"},{"name":"High
+        Gear","stars":1,"value":1,"target":2,"info":"Gear Up 2 buildings using the
+        Master Builder","completionInfo":"Total buildings geared up: 1","village":"builderBase"},{"name":"Hidden
+        Treasures","stars":3,"value":1,"target":1,"info":"Rebuild Battle Machine","completionInfo":null,"village":"builderBase"},{"name":"Games
+        Champion","stars":0,"value":5590,"target":10000,"info":"Earn 10000 points
+        in Clan Games","completionInfo":"Total Clan Games points: 5590","village":"home"},{"name":"Dragon
+        Slayer","stars":0,"value":0,"target":1,"info":"Slay the Giant Dragon on the
+        Campaign Map","completionInfo":null,"village":"home"},{"name":"War League
+        Legend","stars":0,"value":0,"target":20,"info":"Score 20 Stars for your clan
+        in War League battles","completionInfo":"Total Stars scored for clan in War
+        League battles: 0","village":"home"},{"name":"Keep Your Account Safe!","stars":0,"value":0,"target":1,"info":"Connect
+        your account to Supercell ID for safe keeping.","completionInfo":"Completed!","village":"home"},{"name":"Well
+        Seasoned","stars":0,"value":3160,"target":5000,"info":"Earn 5000 points in
+        Season Challenges","completionInfo":"Total Season Challenges points: 3160","village":"home"},{"name":"Shattered
+        and Scattered","stars":0,"value":0,"target":40,"info":"Destroy 40 Scattershots
+        in Multiplayer battles","completionInfo":"Total Scattershots destroyed: 0","village":"home"},{"name":"Not
+        So Easy This Time","stars":0,"value":0,"target":10,"info":"Destroy 10 weaponized
+        Town Halls in Multiplayer battles","completionInfo":"Weaponized Town Halls
+        destroyed: 0","village":"home"},{"name":"Bust This!","stars":0,"value":0,"target":25,"info":"Destroy
+        25 weaponized Builder''s Huts in Multiplayer battles","completionInfo":"Total
+        weaponized Builder''s Huts destroyed: 0","village":"home"},{"name":"Superb
+        Work","stars":0,"value":0,"target":20,"info":"Boost a Super Troop 20 times","completionInfo":"Total
+        times Super Troops boosted: 0","village":"home"},{"name":"Siege Sharer","stars":0,"value":0,"target":50,"info":"Donate
+        50 Siege Machines","completionInfo":"Total Siege Machines donated: 0","village":"home"},{"name":"Aggressive
+        Capitalism","stars":0,"value":14980,"target":20000,"info":"Loot 20000 Capital
+        Gold during Raid attacks","completionInfo":"Total Capital Gold looted: 14980","village":"home"},{"name":"Most
+        Valuable Clanmate","stars":0,"value":20835,"target":40000,"info":"Contribute
+        40000 Capital Gold to upgrades in the Clan Capital","completionInfo":"Total
+        Capital Gold contributed: 20835","village":"home"},{"name":"Counterspell","stars":0,"value":0,"target":40,"info":"Destroy
+        40 Spell Towers in Multiplayer Battles","completionInfo":"Total Spell Towers
+        Destroyed: 0","village":"home"},{"name":"Monolith Masher","stars":0,"value":0,"target":20,"info":"Destroy
+        20 Monoliths in Multiplayer Battles","completionInfo":"Total Monoliths Destroyed:
+        0","village":"home"},{"name":"Ungrateful Child","stars":0,"value":0,"target":1,"info":"Defeat
+        M.O.M.M.A on the Campaign Map","completionInfo":null,"village":"home"}],"playerHouse":{"elements":[{"type":"ground","id":82000000},{"type":"walls","id":82000048},{"type":"roof","id":82000013},{"type":"decoration","id":82000063}]},"versusBattleWinCount":244,"labels":[{"id":57000000,"name":"Clan
+        Wars","iconUrls":{"small":"https://api-assets.clashofclans.com/labels/64/ZxJp9606Vl1sa0GHg5JmGp8TdHS4l0jE4WFuil1ENvA.png","medium":"https://api-assets.clashofclans.com/labels/128/ZxJp9606Vl1sa0GHg5JmGp8TdHS4l0jE4WFuil1ENvA.png"}},{"id":57000008,"name":"Active
+        Donator","iconUrls":{"small":"https://api-assets.clashofclans.com/labels/64/MvL0LDt0yv9AI-Vevpu8yE5NAJUIV05Ofpsr4IfGRxQ.png","medium":"https://api-assets.clashofclans.com/labels/128/MvL0LDt0yv9AI-Vevpu8yE5NAJUIV05Ofpsr4IfGRxQ.png"}},{"id":57000010,"name":"Hungry
+        Learner","iconUrls":{"small":"https://api-assets.clashofclans.com/labels/64/jEvZf9PnfPaqYh2PMLBoJfB1BoBpomerqmsYWDYisKY.png","medium":"https://api-assets.clashofclans.com/labels/128/jEvZf9PnfPaqYh2PMLBoJfB1BoBpomerqmsYWDYisKY.png"}}],"troops":[{"name":"Barbarian","level":7,"maxLevel":11,"village":"home"},{"name":"Archer","level":7,"maxLevel":11,"village":"home"},{"name":"Goblin","level":6,"maxLevel":8,"village":"home"},{"name":"Giant","level":7,"maxLevel":11,"village":"home"},{"name":"Wall
+        Breaker","level":6,"maxLevel":11,"village":"home"},{"name":"Balloon","level":6,"maxLevel":10,"village":"home"},{"name":"Wizard","level":7,"maxLevel":11,"village":"home"},{"name":"Healer","level":4,"maxLevel":7,"village":"home"},{"name":"Dragon","level":4,"maxLevel":9,"village":"home"},{"name":"P.E.K.K.A","level":3,"maxLevel":9,"village":"home"},{"name":"Minion","level":5,"maxLevel":11,"village":"home"},{"name":"Hog
+        Rider","level":5,"maxLevel":11,"village":"home"},{"name":"Valkyrie","level":5,"maxLevel":9,"village":"home"},{"name":"Golem","level":5,"maxLevel":12,"village":"home"},{"name":"Witch","level":3,"maxLevel":6,"village":"home"},{"name":"Lava
+        Hound","level":3,"maxLevel":6,"village":"home"},{"name":"Bowler","level":2,"maxLevel":6,"village":"home"},{"name":"Baby
+        Dragon","level":1,"maxLevel":8,"village":"home"},{"name":"Miner","level":2,"maxLevel":9,"village":"home"},{"name":"Super
+        Barbarian","level":1,"maxLevel":4,"village":"home"},{"name":"Super Archer","level":1,"maxLevel":4,"village":"home"},{"name":"Super
+        Wall Breaker","level":1,"maxLevel":5,"village":"home"},{"name":"Super Giant","level":1,"maxLevel":3,"village":"home"},{"name":"Raged
+        Barbarian","level":10,"maxLevel":18,"village":"builderBase"},{"name":"Sneaky
+        Archer","level":9,"maxLevel":18,"village":"builderBase"},{"name":"Beta Minion","level":9,"maxLevel":18,"village":"builderBase"},{"name":"Boxer
+        Giant","level":8,"maxLevel":18,"village":"builderBase"},{"name":"Bomber","level":6,"maxLevel":18,"village":"builderBase"},{"name":"Cannon
+        Cart","level":2,"maxLevel":18,"village":"builderBase"},{"name":"Baby Dragon","level":6,"maxLevel":18,"village":"builderBase"},{"name":"Night
+        Witch","level":2,"maxLevel":18,"village":"builderBase"},{"name":"Sneaky Goblin","level":1,"maxLevel":2,"village":"home"},{"name":"Super
+        Miner","level":1,"maxLevel":3,"village":"home"},{"name":"Rocket Balloon","level":1,"maxLevel":3,"village":"home"},{"name":"Inferno
+        Dragon","level":1,"maxLevel":3,"village":"home"},{"name":"Super Valkyrie","level":1,"maxLevel":3,"village":"home"},{"name":"Super
+        Witch","level":1,"maxLevel":2,"village":"home"},{"name":"Ice Hound","level":1,"maxLevel":2,"village":"home"},{"name":"Super
+        Bowler","level":1,"maxLevel":3,"village":"home"},{"name":"Super Dragon","level":1,"maxLevel":3,"village":"home"},{"name":"Super
+        Wizard","level":1,"maxLevel":3,"village":"home"},{"name":"Super Minion","level":1,"maxLevel":4,"village":"home"}],"heroes":[{"name":"Barbarian
+        King","level":28,"maxLevel":85,"village":"home"},{"name":"Archer Queen","level":33,"maxLevel":85,"village":"home"},{"name":"Battle
+        Machine","level":3,"maxLevel":30,"village":"builderBase"}],"spells":[{"name":"Lightning
+        Spell","level":7,"maxLevel":10,"village":"home"},{"name":"Healing Spell","level":7,"maxLevel":9,"village":"home"},{"name":"Rage
+        Spell","level":5,"maxLevel":6,"village":"home"},{"name":"Jump Spell","level":3,"maxLevel":5,"village":"home"},{"name":"Freeze
+        Spell","level":4,"maxLevel":7,"village":"home"},{"name":"Poison Spell","level":4,"maxLevel":9,"village":"home"},{"name":"Earthquake
+        Spell","level":3,"maxLevel":5,"village":"home"},{"name":"Haste Spell","level":3,"maxLevel":5,"village":"home"},{"name":"Clone
+        Spell","level":1,"maxLevel":7,"village":"home"},{"name":"Skeleton Spell","level":2,"maxLevel":7,"village":"home"},{"name":"Bat
+        Spell","level":1,"maxLevel":6,"village":"home"}]}'
+  recorded_at: Wed, 29 Mar 2023 04:14:39 GMT
+recorded_with: VCR 6.1.0

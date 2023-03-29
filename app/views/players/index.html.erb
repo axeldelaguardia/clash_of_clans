@@ -1,0 +1,5 @@
+<%= form_with url: players_path, method: :get do |f| %>
+	<%= f.label :player_tag, "Enter player tag to search for a player." %>
+	<%= f.text_field :player_tag %>
+	<%= f.submit "Search"%>
+<% end %>
