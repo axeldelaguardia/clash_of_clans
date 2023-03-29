@@ -1,14 +1,7 @@
 <h3><%= @player.name %></h3>
 <p>Tag: <%= @player.tag %></p>
 <p>Town Hall Level: <%= @player.town_hall_level %></p>
-<p>Clan Tag: <%= @player.clan_tag %></p>
 <p>Level: <%= @player.level %></p>
 <p>War Preference: <%= @player.war_preference %></p>
 <p>Builder Hall Level: <%= @player.builder_hall_level %></p>
 <h4>Heroes:</h4>
-<% @player.heroes.each do |hero| %>
-	<h5><%= hero.name %></h5>
-	<p>Level: <%= hero.level %></p>
-	<p>Max Level: <%= hero.max_level %></p>
-	<p>Village: <%= hero.village %></p>
-<% end %>
