@@ -15,7 +15,7 @@ class Player
 		@level = data[:expLevel]
 		@builder_hall_level = data[:builderHallLevel]
 		@war_preference = data[:warPreference]
-		@clan_tag = data[:clan][:tag]
+		# @clan_tag = data[:clan][:tag]
 		@heroes = add_heroes(data[:heroes])
 	end
 
