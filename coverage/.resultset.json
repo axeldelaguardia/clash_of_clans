@@ -1,0 +1,90 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/axeld/Documents/personal_projects/clash_of_clans/app/facades/clash_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/axeld/Documents/personal_projects/clash_of_clans/app/services/clash_service.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/axeld/Documents/personal_projects/clash_of_clans/app/poros/player.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          3,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/axeld/Documents/personal_projects/clash_of_clans/app/poros/hero.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          3,
+          3,
+          3,
+          3,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1680061290
+  }
+}
