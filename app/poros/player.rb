@@ -16,12 +16,12 @@ class Player
 		@builder_hall_level = data[:builderHallLevel]
 		@war_preference = data[:warPreference]
 		# @clan_tag = data[:clan][:tag]
-		@heroes = add_heroes(data[:heroes])
+		# @heroes = add_heroes(data[:heroes])
 	end
 
-	def add_heroes(hero_data)
-		hero_data.map do |hero|
-			Hero.new(hero)
-		end
-	end
+	# def add_heroes(hero_data)
+	# 	hero_data.map do |hero|
+	# 		Hero.new(hero)
+	# 	end
+	# end
 end
